@@ -32,13 +32,4 @@ class Hangman:
       else:
         self.check_guess(guess)
         self.list_of_guesses.append(guess)
-        print(self.list_of_guesses)
-        print(self.word_guessed)
-        print(self.word)
-        print(self.num_letters)
-        
-
-word_list = ["apple", "banana", "grape", "orange"]
-h =Hangman(word_list)
-h.ask_for_input()
-print(h.list_of_guesses)
+   
